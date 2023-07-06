@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px 20px 0px 20px;
+}
+
+body {
+	background-color: #cb92ff;
+	font-family: 'PT Sans', sans-serif;
+}
+.container {
+	display: flex;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.left {
+	position: relative;
+	display: inline-block;
+	padding: 40px;
+}
+
+.floating-heading {
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	font-size: 90px;
+	color: #e4ffa7;;
+
+	
+}
+
+img {
+	width: 700px;
+}
+
+.right {
+	color: #fff;
+}
+
+.right p {
+	font-size:20px;
+}
+
+.right strong {
+	color: #e4ffa7;
+	font-size: 45px;
+}
+
+.right h2 {
+	font-family: 'PT Serif', serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 25px;
+}
